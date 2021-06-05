@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(120deg,#f6d365,#fda085);
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    /* if content is smaller than minimum height */
+    min-height: 100vh;
+    
+}
+
+.joke,#myContent{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joke{
+    margin-top: 200px;
+}
+#jokeBtn{
+    font-size: 5em;
+    border:none;
+    text-decoration:none;
+    padding: 16px 32px;
+}
+
+#jokeBtn:hover{
+    background: linear-gradient(115deg, #86e4f5,#edf57e );
+}
+
+#myContent{
+    color:  #aab7b8 ;
+    font-size: 2.5em;
+    transition: all 0.3s ease;
+
+}
