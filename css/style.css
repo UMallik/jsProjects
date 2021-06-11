@@ -36,6 +36,31 @@ body{
 #myContent{
     color:  #aab7b8 ;
     font-size: 2.5em;
+    padding-left: 10px;
     transition: all 0.3s ease;
 
+}
+
+@media screen and (max-width:900px){
+    #jokeBtn{
+        font-size:2em;
+    }
+    #myContent{
+        font-size: 2em;
+        display: inline-block;
+        
+    
+    }
+}
+
+@media screen and (max-width:316px){
+    #jokeBtn{
+        font-size:1.5em;
+    }
+    #myContent{
+        font-size: 2em;
+        display: inline-block;
+        
+    
+    }
 }
